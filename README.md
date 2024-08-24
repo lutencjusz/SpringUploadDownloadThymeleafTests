@@ -35,6 +35,9 @@ The project includes the following types of tests:
 Unit tests are implemented using JUnit 5 and Mockito. These tests focus on verifying the correctness of individual units of code, such as services or controllers, in isolation from other components.
 
 - **Mockito**: Used for mocking dependencies, allowing the testing of units in isolation from external dependencies like databases.
+- **JUnit 5**: A unit testing framework used for writing and running tests.
+- **Spring Boot Test**: Used to load the application context during tests, allowing for the testing of real component integration.
+- **MockMvc**: A Spring testing utility used to test controllers.
 
 ### Integration Tests
 
